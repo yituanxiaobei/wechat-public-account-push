@@ -3,31 +3,40 @@ export const config = {
      * 公众号配置
      */
 
-    // 公众号APP_ID
-    APP_ID: "wxfc0a83181eccf416",
-
-    // 公众号APP_SECRET
-    APP_SECRET: "eefe8e56ca41c722cd9bc5ed506a2863",
-
-    // 模板消息id
-    TEMPLATE_ID: "9xTVlRsnG_oqzpI2Yk4N7zd6SUigrblcOyxIss8kL-k",
-
-   
-    // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-    // [{
-    //   name: "张三",
-    //   id: "wxafasdasdd-zxfvsdfd"
-    // },
-    // {
-    //   name: "李四",
-    //   id: "wxafasdasdd-zxfvsdfd"
-    // }]
-    USERS: [
-      {name: '北沐', id: "oAELm5kkecmc6M6I83Py4qYp0AqI"}],
-    // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-    CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
-    ],
+   // 公众号APP_ID 
+  APP_ID: "wxfc0a83181eccf416", 
+  
+   // 公众号APP_SECRET 
+  APP_SECRET: "eefe8e56ca41c722cd9bc5ed506a2863", 
+  
+   // 模板消息id 
+  TEMPLATE_ID: "9xTVlRsnG_oqzpI2Yk4N7zd6SUigrblcOyxIss8kL-k", 
+  // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"] 
+  USERS: ["oAELm5kkecmc6M6I83Py4qYp0AqI"], 
+  TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu", 
+  
+   // 回调消息模板id, 用来看自己有没有发送成功的那个模板 
+  CALLBACK_TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu", 
+  
+   // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如 
+  // [{ 
+  // name: "张三", 
+  // id: "wxafasdasdd-zxfvsdfd" 
+  // }, 
+  // { 
+  // name: "李四", 
+  // id: "wxafasdasdd-zxfvsdfd" 
+  // }] 
+  USERS: [ 
+  {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"},  
+  {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"},  
+  {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"},  
+  {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"},  
+  ], 
+  // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓） 
+  CALLBACK_USERS: [ 
+  {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"},  
+  ], 
      
     /**
      * 信息配置
